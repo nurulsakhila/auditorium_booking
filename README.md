@@ -19,12 +19,33 @@ Sistem informasi berbasis web untuk pengelolaan peminjaman (booking) Auditorium 
 - **Export Data**: Rekap data peminjaman ke format **PDF**.
 
 ## Teknologi yang Digunakan
-- **Bahasa Pemrograman**: PHP 8.2
+
+### Backend
+- **PHP**: 8.2
 - **Framework**: [Laravel 12](https://laravel.com)
+- **Authentication**: Laravel Breeze (custom session-based untuk admin)
 - **Database**: MySQL
-- **Frontend**: Blade Templates + [Tailwind CSS](https://tailwindcss.com)
+- **Testing**: PHPUnit
+
+### Frontend
+- **Template Engine**: Blade Templates
+- **CSS Framework**: [Tailwind CSS](https://tailwindcss.com) v3.1
+- **JavaScript**: Alpine.js v3.4
+- **Build Tool**: Vite v7.0
+- **HTTP Client**: Axios v1.11
+- **Calendar**: FullCalendar v6.1.10
 - **Alerts**: SweetAlert2
 - **Icons**: Heroicons
+
+### Libraries & Packages
+- **PDF Export**: [DomPDF](https://github.com/barryvdh/laravel-dompdf) v3.1
+- **Dummy Data**: Faker v1.23
+
+### Development Tools
+- **Package Manager**: Composer & NPM
+- **Version Control**: Git
+- **Code Formatter**: Laravel Pint
+- **Container**: Laravel Sail (Docker)
 
 ## Akses Website
    - **Public**: http://127.0.0.1:8000
