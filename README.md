@@ -16,7 +16,7 @@ Sistem informasi berbasis web untuk pengelolaan peminjaman (booking) Auditorium 
   - Validasi pengajuan (Approve/Reject).
   - Lihat detail kegiatan dan surat peminjaman.
 - **Kalender Admin**: Tampilan jadwal kegiatan dalam bentuk kalender.
-- **Export Data**: Rekap data peminjaman ke format **Excel** dan **PDF**.
+- **Export Data**: Rekap data peminjaman ke format **PDF**.
 
 ## Teknologi yang Digunakan
 - **Framework**: [Laravel 11](https://laravel.com)
