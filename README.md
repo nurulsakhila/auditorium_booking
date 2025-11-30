@@ -19,7 +19,8 @@ Sistem informasi berbasis web untuk pengelolaan peminjaman (booking) Auditorium 
 - **Export Data**: Rekap data peminjaman ke format **PDF**.
 
 ## Teknologi yang Digunakan
-- **Framework**: [Laravel 11](https://laravel.com)
+- **Bahasa Pemrograman**: PHP 8.2
+- **Framework**: [Laravel 12](https://laravel.com)
 - **Database**: MySQL
 - **Frontend**: Blade Templates + [Tailwind CSS](https://tailwindcss.com)
 - **Alerts**: SweetAlert2
